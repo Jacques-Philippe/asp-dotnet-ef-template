@@ -37,7 +37,7 @@ public class PizzaController : ControllerBase
         return CreatedAtAction(nameof(GetById), new { Id = pizza.Id }, pizza);
     }
 
-    [HttpDelete]
+    [HttpDelete("{id}")]
     public IActionResult Delete(int id)
     {
         var pizza = _PizzaService.GetById(id);
