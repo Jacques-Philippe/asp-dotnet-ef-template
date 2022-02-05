@@ -1,0 +1,19 @@
+{
+  "name": "add-cs",
+  "packageManager": "yarn@3.1.1",
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "husky": "^7.0.4",
+    "lint-staged": "^12.2.0"
+  },
+  "scripts": {
+    "prettify": "dotnet tool run dotnet-csharpier src",
+    "test": "dotnet test src",
+    "prepare": "husky install",
+    "dev": "cross-env ASPNETCORE_ENVIRONMENT=Development dotnet watch run --project src/ContosoRESTAPI",
+    "build":"dotnet build src"
+  },
+  "lint-staged": {
+    "*.cs": "dotnet tool run dotnet-csharpier"
+  }
+}
