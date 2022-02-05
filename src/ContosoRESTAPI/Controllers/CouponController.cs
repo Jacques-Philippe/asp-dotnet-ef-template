@@ -3,7 +3,7 @@ using ContosoRESTAPI.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
-namespace ContosoPizza.Controllers;
+namespace ContosoRESTAPI.Controllers;
 
 [ApiController]
 [Route("[controller]")]
