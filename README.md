@@ -1,6 +1,5 @@
 ![Build & Test workflow](https://github.com/Jacques-Philippe/asp-dotnet-ef-template/actions/workflows/unit-tests.yml/badge.svg)
-# Don't forget to change the link above when you clone!
-![Build & Test workflow](https://github.com/Jacques-Philippe/learning-ASP.NET-EF-Core/actions/workflows/unit-tests.yml/badge.svg)
+Don't forget to change the link above when you clone this repo to make other projects!
 
 # Get started (dev)
 
